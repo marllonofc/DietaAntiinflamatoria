@@ -6,7 +6,7 @@ export default function Home() {
   <div
     className="font-semibold text-sm px-4 flex whitespace-nowrap"
     style={{
-      animation: "marquee 40s linear infinite",
+      animation: "marquee 30s linear infinite",
       display: "inline-flex",
     }}
   >
