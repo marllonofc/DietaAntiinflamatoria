@@ -1,0 +1,300 @@
+import React from 'react';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-br from-purple-600 to-purple-800 text-white">
+        <div className="max-w-3xl mx-auto px-6 py-16 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Dieta Anti-Inflamatória:<br />30 Dias para Menos Dor
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 opacity-95">
+            O guia completo para reduzir inflamações crônicas, aliviar dores e recuperar sua qualidade de vida através da alimentação
+          </p>
+          
+          <div className="max-w-xs mx-auto my-8 bg-white p-5 rounded-2xl shadow-2xl">
+            <div className="bg-gradient-to-br from-purple-600 to-purple-800 h-64 flex items-center justify-center text-white text-xl text-center p-5 rounded-lg">
+              📘 GUIA COMPLETO<br />30 DIAS
+            </div>
+          </div>
+          
+          <a href="#comprar" className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-xl px-12 py-5 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+            Quero Começar Agora
+          </a>
+          <div className="text-3xl font-bold my-4">Apenas $10</div>
+          <div className="inline-block bg-white bg-opacity-20 px-6 py-3 rounded-full text-sm mt-4">
+            🔒 Garantia de 7 dias ou seu dinheiro de volta
+          </div>
+        </div>
+      </div>
+
+      {/* Pain Points */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            Você Está Cansado de Viver com Dor?
+          </h2>
+          <div className="bg-white p-10 rounded-2xl shadow-md">
+            <p className="text-lg mb-4 text-gray-700">
+              Se você acorda todos os dias sentindo aquela dor nas articulações que parece nunca passar...
+            </p>
+            <p className="text-lg mb-4 text-gray-700">
+              Se já tentou diversos medicamentos mas eles só mascaram o problema sem resolver a causa...
+            </p>
+            <p className="text-lg mb-4 text-gray-700">
+              Se sente que a inflamação crônica está roubando sua energia, seu sono e sua qualidade de vida...
+            </p>
+            <p className="text-lg font-bold text-gray-900">
+              Você não está sozinho. E existe uma solução natural que pode transformar sua saúde em apenas 30 dias.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Solution */}
+      <div className="py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 text-white p-10 rounded-2xl text-center">
+            <h3 className="text-3xl font-bold mb-6">
+              A Alimentação é Seu Remédio Mais Poderoso
+            </h3>
+            <p className="text-lg leading-relaxed mb-4">
+              A Dieta Anti-Inflamatória não é mais uma dieta da moda. É um protocolo baseado em ciência que ataca a raiz da inflamação crônica através de alimentos específicos que seu corpo precisa para se curar.
+            </p>
+            <p className="text-lg font-bold">
+              Em 30 dias, você vai sentir a diferença.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* What's Included */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            O Que Você Vai Receber
+          </h2>
+          <div className="space-y-4">
+            {[
+              {
+                num: "1",
+                title: "Plano Alimentar Completo de 30 Dias",
+                desc: "Todas as refeições planejadas, com lista de compras semanal e porções exatas"
+              },
+              {
+                num: "2",
+                title: "Guia de Alimentos Anti-Inflamatórios",
+                desc: "Lista completa do que comer e do que evitar, com explicação científica de cada alimento"
+              },
+              {
+                num: "3",
+                title: "50+ Receitas Práticas e Deliciosas",
+                desc: "Café da manhã, almoço, jantar e lanches que combatem a inflamação sem sacrificar o sabor"
+              },
+              {
+                num: "4",
+                title: "Tracker de Sintomas",
+                desc: "Planilha para você acompanhar sua evolução dia a dia e ver os resultados acontecendo"
+              },
+              {
+                num: "5",
+                title: "BÔNUS: Guia de Suplementação",
+                desc: "Os 5 suplementos naturais que potencializam os resultados da dieta (opcional)"
+              }
+            ].map((item, idx) => (
+              <div key={idx} className="bg-white p-6 rounded-xl shadow-md flex gap-4">
+                <div className="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold">
+                  {item.num}
+                </div>
+                <div>
+                  <div className="font-bold text-lg text-gray-900 mb-1">{item.title}</div>
+                  <div className="text-gray-700">{item.desc}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* CTA 2 */}
+      <div className="py-16 text-center">
+        <div className="max-w-3xl mx-auto px-6">
+          <a href="#comprar" className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-xl px-12 py-5 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+            Sim, Eu Quero Menos Dor!
+          </a>
+          <div className="text-3xl font-bold my-4">Apenas $10</div>
+          <p className="text-gray-600 mt-4">
+            ✅ Acesso imediato após a compra<br />
+            ✅ Garantia incondicional de 7 dias
+          </p>
+        </div>
+      </div>
+
+      {/* For Who */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            Este Guia é Para Você?
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white p-8 rounded-xl shadow-md">
+              <h3 className="text-xl font-bold text-green-600 mb-6">✅ Este guia É para você se:</h3>
+              <ul className="space-y-3">
+                {[
+                  "Sofre com dores articulares",
+                  "Tem inflamação crônica",
+                  "Quer reduzir medicamentos",
+                  "Busca mais energia e disposição",
+                  "Está disposto a mudar sua alimentação"
+                ].map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-2">
+                    <span className="text-green-600 font-bold">✓</span>
+                    <span className="text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-white p-8 rounded-xl shadow-md">
+              <h3 className="text-xl font-bold text-red-600 mb-6">❌ NÃO é para você se:</h3>
+              <ul className="space-y-3">
+                {[
+                  "Busca soluções mágicas instantâneas",
+                  "Não quer mudar hábitos",
+                  "Espera resultados sem esforço",
+                  "Prefere apenas medicação",
+                  "Não tem 30 dias de compromisso"
+                ].map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-2">
+                    <span className="text-red-600 font-bold">✗</span>
+                    <span className="text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Testimonials */}
+      <div className="py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            O Que Dizem Quem Já Experimentou
+          </h2>
+          <div className="space-y-6">
+            {[
+              {
+                text: "Em 2 semanas já senti diferença nas dores do joelho. Hoje, depois de 30 dias, consigo subir escadas sem sentir nada. Incrível como a alimentação faz diferença!",
+                author: "Maria Santos, 52 anos",
+                image: "https://via.placeholder.com/80"
+              },
+              {
+                text: "Sofria com enxaquecas constantes. Depois do protocolo, as crises diminuíram 80%. Minha qualidade de vida mudou completamente.",
+                author: "João Ferreira, 45 anos",
+                image: "https://via.placeholder.com/80"
+              },
+              {
+                text: "As receitas são deliciosas e fáceis de fazer. Não senti que estava fazendo dieta, mas os resultados apareceram: menos inchaço, mais disposição e zero dor nas costas.",
+                author: "Ana Paula Costa, 38 anos",
+                image: "https://via.placeholder.com/80"
+              }
+            ].map((testimonial, idx) => (
+              <div key={idx} className="bg-white p-8 rounded-xl shadow-md">
+                <div className="flex items-start gap-6">
+                  <img 
+                    src={testimonial.image} 
+                    alt={testimonial.author}
+                    className="w-20 h-20 rounded-full object-cover flex-shrink-0 border-4 border-purple-200"
+                  />
+                  <div>
+                    <p className="text-gray-700 italic mb-4">{testimonial.text}</p>
+                    <p className="font-bold text-gray-900">— {testimonial.author}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* FAQ */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            Perguntas Frequentes
+          </h2>
+          <div className="space-y-4">
+            {[
+              {
+                q: "Como recebo o material?",
+                a: "Imediatamente após a confirmação do pagamento, você recebe o acesso por email para fazer o download do guia completo em PDF."
+              },
+              {
+                q: "Preciso de ingredientes caros ou difíceis de encontrar?",
+                a: "Não! Todas as receitas usam ingredientes acessíveis que você encontra em qualquer supermercado. O foco é na praticidade."
+              },
+              {
+                q: "E se eu não gostar ou não funcionar para mim?",
+                a: "Você tem 7 dias de garantia incondicional. Se não ficar satisfeito por qualquer motivo, devolvemos 100% do seu dinheiro, sem perguntas."
+              },
+              {
+                q: "Funciona para vegetarianos/veganos?",
+                a: "Sim! O guia inclui alternativas vegetarianas e veganas para todas as receitas, mantendo os mesmos benefícios anti-inflamatórios."
+              },
+              {
+                q: "Posso continuar tomando meus medicamentos?",
+                a: "Sim! Este guia complementa seu tratamento médico. Nunca pare medicações sem orientação do seu médico. A dieta potencializa os resultados."
+              }
+            ].map((faq, idx) => (
+              <div key={idx} className="bg-white p-6 rounded-xl shadow-md">
+                <div className="font-bold text-lg text-gray-900 mb-2">{faq.q}</div>
+                <div className="text-gray-700">{faq.a}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Final CTA */}
+      <div className="bg-gradient-to-br from-purple-600 to-purple-800 text-white py-16">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Comece Sua Transformação Hoje
+          </h2>
+          <p className="text-xl mb-8">
+            Por apenas $10, você tem acesso ao método completo que pode mudar sua relação com a dor
+          </p>
+          
+          <div className="bg-white bg-opacity-20 p-6 rounded-xl mb-8 max-w-lg mx-auto">
+            <p className="text-lg mb-2">🎁 <strong>BÔNUS TEMPORÁRIO:</strong></p>
+            <p>Quem comprar hoje ganha acesso ao grupo exclusivo de suporte por 30 dias (valor: $29)</p>
+          </div>
+          
+          <a href="#comprar" className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-xl px-12 py-5 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+            Quero Começar Agora por $10
+          </a>
+          
+          <p className="mt-8 text-sm opacity-90">
+            ✅ Pagamento 100% seguro<br />
+            ✅ Acesso imediato<br />
+            ✅ Garantia de 7 dias
+          </p>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-400 py-12 text-center">
+        <div className="max-w-3xl mx-auto px-6">
+          <p className="mb-4">© 2025 Dieta Anti-Inflamatória. Todos os direitos reservados.</p>
+          <p className="mb-4">
+            <a href="#" className="text-green-500 hover:text-green-400">Política de Privacidade</a> | 
+            <a href="#" className="text-green-500 hover:text-green-400 ml-2">Termos de Uso</a> | 
+            <a href="#" className="text-green-500 hover:text-green-400 ml-2">Contato</a>
+          </p>
+          <p className="text-sm">Este produto não substitui orientação médica profissional.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
