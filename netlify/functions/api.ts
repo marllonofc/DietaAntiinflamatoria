@@ -36,7 +36,10 @@ app.use((req, res, next) => {
   next();
 });
 
-await registerRoutes(app);
+// 👇 Envolve o await dentro de uma função assíncrona autoexecutável
+(async () => {
+  await registerRoutes(app);
+})();
 
 app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   const status = err.status || err.statusCode || 500;
@@ -47,5 +50,5 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
 });
 
 export const handler = serverless(app, {
-  basePath: '/.netlify/functions/api'
+  basePath: "/.netlify/functions/api",
 });
