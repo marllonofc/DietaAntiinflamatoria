@@ -3,15 +3,22 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Top Banner / Letreiro */}
       <div className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-yellow-400 to-red-500 text-white h-8 flex items-center overflow-hidden shadow-md">
-        <div className="font-semibold text-sm px-4 flex whitespace-nowrap animate-marquee">
-          <div className="mr-8">
-            🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - Dieta Antiinflamatoria 👉 30 Días para Menos Dolor + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
-          </div>
-          <div>
-            🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - Dieta Antiinflamatoria 👉 30 Días para Menos Dolor + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
-          </div>
-        </div>
-      </div>
+  <div
+    className="font-semibold text-sm px-4 flex whitespace-nowrap"
+    style={{
+      animation: "marquee 40s linear infinite",
+      display: "inline-flex",
+    }}
+  >
+    <div className="mr-8">
+      🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - Dieta Antiinflamatoria 👉 30 Días para Menos Dolor + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
+    </div>
+    <div>
+      🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - Dieta Antiinflamatoria 👉 30 Días para Menos Dolor + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
+    </div>
+  </div>
+</div>
+
 
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-purple-600 to-purple-800 text-white">
