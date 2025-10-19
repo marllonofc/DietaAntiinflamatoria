@@ -11,10 +11,10 @@ export default function Home() {
     }}
   >
     <div className="mr-8">
-      🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - Dieta Antiinflamatoria 👉 30 Días para Menos Dolor + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
+      🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - 👉 Dieta Antiinflamatoria + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
     </div>
     <div>
-      🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - Dieta Antiinflamatoria 👉 30 Días para Menos Dolor + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
+      🚨 ¡Oferta Especial de Lanzamiento! Solo $10,00 - 👉 Dieta Antiinflamatoria + #3 Bonos Muy Especiales - Acceso Inmediato 🔥
     </div>
   </div>
 </div>
