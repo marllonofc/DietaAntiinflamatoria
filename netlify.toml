@@ -7,7 +7,9 @@
   directory = "netlify/functions"
   external_node_modules = ["express"]
   node_bundler = "esbuild"
-  format = "esm" # ← ESSA LINHA É O QUE FALTAVA
+
+  [functions."*"]
+    format = "esm"
 
 [[redirects]]
   from = "/api/*"
