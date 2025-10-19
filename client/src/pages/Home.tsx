@@ -232,19 +232,19 @@ export default function Home() {
             {[
               {
                 text: "En 2 semanas ya sentí diferencia en los dolores de rodilla. Hoy, después de 30 días, puedo subir escaleras sin sentir nada. ¡Increíble cómo la alimentación hace diferencia!",
-                author: "Catalina Rodríguez, 52 años",
+                author: "Catalina Rodríguez, 38 años",
                 location: "Córdoba, Argentina",
                 image: "https://i.ibb.co/DgGfXkhT/Whats-App-Image-2025-10-19-at-14-25-08.jpg"
               },
               {
                 text: "Sufría con migrañas constantes. Después del protocolo, las crisis disminuyeron 80%. Mi calidad de vida cambió completamente.",
-                author: "Valentina Morales, 45 años",
+                author: "Valentina Morales, 42 años",
                 location: "Santiago, Chile",
                 image: "https://i.ibb.co/ynRf1sty/Whats-App-Image-2025-10-19-at-14-25-46-1.jpg"
               },
               {
                 text: "Las recetas son deliciosas y fáciles de hacer. No sentí que estaba haciendo dieta, pero los resultados aparecieron: menos hinchazón, más disposición y cero dolor de espalda.",
-                author: "Isabella García, 38 años",
+                author: "Isabella García, 49 años",
                 location: "Bogotá, Colombia",
                 image: "https://i.ibb.co/G4Tbx5b8/Whats-App-Image-2025-10-19-at-14-25-46.jpg"
               }
