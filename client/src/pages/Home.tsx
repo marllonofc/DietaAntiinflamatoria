@@ -17,8 +17,7 @@ export default function Home() {
       <div className="bg-gradient-to-br from-purple-600 to-purple-800 text-white">
         <div className="max-w-3xl mx-auto px-6 py-16 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            ¡DEJA DE <span className="text-red-500 font-bold drop-shadow-md">SUFRIR</span>!
-!<br />
+            ¡DEJA DE <span className="text-red-500 font-bold drop-shadow-md">SUFRIR</span>!<br />
             Elimina Tu Dolor en <span className="whitespace-nowrap">30 Días</span><br />
             Sin Medicinas
           </h1>
