@@ -323,6 +323,7 @@ export default function Home() {
           </p>
 
           <div className="bg-white bg-opacity-20 p-6 rounded-xl mb-8 max-w-lg mx-auto">
+            <p className="text-lg mb-2">👉 <strong>DIETA ANTIINFLAMATORIA🔥</strong></p>
             <p className="text-lg mb-2">🎁 <strong>#1 BONO - 30 RECETAS EXPRESS EN 15 MINUTOS🔥</strong></p>
             <p className="text-lg mb-2">🎁 <strong>#2 BONO - GUÍA DE SUPLEMENTACIÓN ANTIINFLAMATORIA🔥</strong></p>
             <p className="text-lg mb-2">🎁 <strong>#3 BONO - GUÍA DE RESTAURANTES Y VIAJES INTERNACIONALES🔥</strong></p>
