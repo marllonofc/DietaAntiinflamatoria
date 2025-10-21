@@ -145,8 +145,8 @@ export default function Home() {
               },
               {
                 num: "5",
-                title: "BONO: Guía de Suplementación",
-                desc: "Los 5 suplementos naturales que potencializan los resultados de la dieta (opcional)"
+                title: "Más 3 BONOS: Guías que sin duda te Ayudarán",
+                desc: "Bono 1 - 30 Recetas Express En 15 Minutos; Bono 2 - Guía de Suplementos Antiinflamatorios & Bono 3 - Guía de Restaurantes y Viajes Internacionales"
               }
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-6 rounded-xl shadow-md flex gap-4">
