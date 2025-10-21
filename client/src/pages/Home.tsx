@@ -145,7 +145,7 @@ export default function Home() {
               },
               {
                 num: "5",
-                title: "Más 3 BONOS: Guías que sin duda te Ayudarán",
+                title: "Más 3 BONOS: Guías Que Sin Duda Te Ayudarán",
                 desc: "Bono 1 - 30 Recetas Express En 15 Minutos; Bono 2 - Guía de Suplementos Antiinflamatorios & Bono 3 - Guía de Restaurantes y Viajes Internacionales"
               }
             ].map((item, idx) => (
